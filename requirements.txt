@@ -8,3 +8,4 @@ pymysql
 streamlit-tags
 Pillow
 nltk
+wordnet
