@@ -2,7 +2,8 @@ import PyPDF2
 import re
 import requests
 
-pdfFileObj = open('Barkamol_Urinboev - Machine Learning Engineer.pdf', 'rb')
+file = st.file_uploader('Upload Your Resume', type=(['pdf']))
+pdfFileObj = open(file, 'rb')
 pdfReader = PyPDF2.PdfReader(pdfFileObj)
 
 text = ""
