@@ -1,5 +1,6 @@
 #pip install nltk
-
+import nltk
+nltk.download('wordnet')
 import streamlit as st
 import pandas as pd
 import base64,random
