@@ -8,3 +8,6 @@ pymysql
 streamlit-tags
 Pillow
 nltk
+PyPDF2
+re
+requests
