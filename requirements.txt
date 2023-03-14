@@ -1,6 +1,6 @@
 pdfminer3
 pyresparser
-streamlit==1.18.1
+streamlit
 pandas
 pafy
 plotly
