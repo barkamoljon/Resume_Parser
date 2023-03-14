@@ -1,5 +1,5 @@
 #pip install nltk
-import nltkn *
+from nltkn import *
 #nltk.download('wordnet')
 import streamlit as st
 import pandas as pd
