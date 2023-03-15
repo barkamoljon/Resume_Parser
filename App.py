@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import base64,random
 import time,datetime
+import nltk
 from pyresparser import ResumeParser
 from pdfminer3.layout import LAParams, LTTextBox
 from pdfminer3.pdfpage import PDFPage
@@ -14,6 +15,9 @@ from PIL import Image
 import pymysql
 import pafy
 import plotly.express as px
+nltk.data.path.append('nltk_data')
+nltk.download('stopwords', download_dir='./data/nltk/stopwords/')
+nltk.download('punkt', download_dir='./data/nltk/punkt/')
 
 def fetch_yt_video(link):
     video = pafy.new(link)
