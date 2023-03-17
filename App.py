@@ -16,7 +16,8 @@ import pymysql
 import pafy
 import plotly.express as px
 nltk.download('stopwords')
-nltk.data.path.append('nltk_data')
+from nltk.corpus import stopwords
+#nltk.data.path.append('nltk_data')
 #from nltk.corpus import stopwords
 #stopwords = set(stopwords.words('english'))
 
