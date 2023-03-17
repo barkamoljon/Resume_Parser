@@ -15,7 +15,7 @@ from PIL import Image
 import pymysql
 import pafy
 import plotly.express as px
-nltk.data.path.append('stopwords.zip')
+nltk.data.path.append('stopwords')
 #nltk.download('stopwords', download_dir='stopwords.zip')
 #nltk.download('punkt', download_dir='./data/nltk/punkt/')
 
