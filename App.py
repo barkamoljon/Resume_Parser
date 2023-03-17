@@ -16,9 +16,7 @@ import pymysql
 import pafy
 import plotly.express as px
 nltk.download('stopwords')
-nltk.data.path.append('corpora/stopwords.zip/stopwords/')
-#nltk.download('stopwords', download_dir='stopwords.zip')
-#nltk.download('punkt', download_dir='./data/nltk/punkt/')
+from nltk.corpus import stopwords
 
 def fetch_yt_video(link):
     video = pafy.new(link)
