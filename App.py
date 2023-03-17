@@ -15,11 +15,11 @@ from PIL import Image
 import pymysql
 import pafy
 import plotly.express as px
-nltk.download('stopwords')
+#nltk.download('stopwords')
 from nltk.corpus import stopwords
 #nltk.data.path.append('nltk_data')
 #from nltk.corpus import stopwords
-#stopwords = set(stopwords.words('english'))
+stopwords = ('Resume_Parser/stopwords/')
 
 def fetch_yt_video(link):
     video = pafy.new(link)
