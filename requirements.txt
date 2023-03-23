@@ -1,14 +1,9 @@
-pdfminer3
-pyresparser
 streamlit
 pandas
 pafy
 plotly
 pymysql
 streamlit-tags
-Pillow
-nltk
-pypdf2
 requests
 -U spacy
 spacy_transformers
