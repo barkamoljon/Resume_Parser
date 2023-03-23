@@ -10,3 +10,9 @@ Pillow
 nltk
 pypdf2
 requests
+-U spacy
+spacy_transformers
+ gradio
+PyPDF2==2.9.0
+fitz
+PyMuPDF==1.19.0
