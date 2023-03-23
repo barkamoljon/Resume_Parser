@@ -5,9 +5,9 @@ plotly
 pymysql
 streamlit-tags
 requests
--U spacy
+spacy
 spacy_transformers
- gradio
+gradio
 PyPDF2==2.9.0
 fitz
 PyMuPDF==1.19.0
