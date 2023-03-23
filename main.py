@@ -7,8 +7,6 @@ from spacy.tokens import DocBin #do not import if you do not use it
 from tqdm import tqdm #do not import if you do not use it
 from sklearn.model_selection import train_test_split #do not import if you do not use it
 
-!gdown 1AQLPG0Eyp5PrbNXL-eX3RAc8wMSLrjNt
-!unzip /content/model-best.zip
 
 def resume_parser(file_path):
   doc = fitz.open(file_path.name)
