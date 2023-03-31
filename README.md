@@ -1,13 +1,13 @@
-# Resume_Parser
 ## Documentation for Resume_Parser
 
 Resume_Parser is a Python package for parsing and extracting relevant information from resumes. It utilizes the PyPDF2 library to read and extract text from PDF files, and the Natural Language Toolkit (NLTK) to perform named entity recognition and part-of-speech tagging on the extracted text.
 
 Installation:
 To install the package, simply run the following command in your terminal:
-
-Copy code
+```
 pip install Resume_Parser
+```
+
 Usage:
 The main function of the package is parse_resume(), which takes in a file path to the resume PDF and returns a dictionary of extracted information. The dictionary contains the following keys:
 
@@ -25,7 +25,7 @@ The main function of the package is parse_resume(), which takes in a file path t
 Here's an example of how to use the package:
 
 python
-Copy code
+```
 from resume_parser import parse_resume
 
 resume_path = "/path/to/resume.pdf"
@@ -60,5 +60,6 @@ Copy code
         }
     ]
 }
+```
 Note:
 Resume_Parser is not perfect and may not extract all the information accurately, especially if the resume has complex formatting or the information is not in a standard format. It is recommended to manually review the extracted information to ensure accuracy.
