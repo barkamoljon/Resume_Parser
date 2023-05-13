@@ -9,7 +9,7 @@ The first step in parsing a resume is to tokenize it. Tokenization is the proces
 
 To tokenize a resume, we can use the following code:
 
-python
+"
 import spacy
 
 Load the spaCy English model
@@ -21,7 +21,7 @@ resume_text = f.read()
 
 Tokenize the resume text
 resume_tokens = nlp(resume_text)
-
+"
 Once the resume has been tokenized, we can use the spaCy library to extract named entities. Named entities are words or phrases that refer to specific people, places, or things. In this notebook, we will extract the following types of named entities:
 
 Person names: These are the names of people.
@@ -29,11 +29,11 @@ Organization names: These are the names of organizations, such as companies, sch
 Job titles: These are the titles of jobs, such as "Software Engineer" or "Manager".
 To extract named entities, we can use the following code:
 
-python
+"
 for token in resume_tokens:
 if token.is_named_entity:
 print(token.text, token.label_)
-
+"
 This code will print out all of the named entities in the resume, along with their labels.
 
 ## Part 2: Sentiment Analysis
@@ -41,7 +41,7 @@ The second step in parsing a resume is to extract sentiment scores. Sentiment an
 
 To extract sentiment scores, we can use the following code:
 
-python
+"
 from textblob import TextBlob
 
 Create a TextBlob object from the resume text
@@ -49,7 +49,7 @@ blob = TextBlob(resume_text)
 
 Print the sentiment score of the resume
 print(blob.sentiment.polarity)
-
+"
 This code will print out the sentiment score of the resume, which is a number between -1 and 1. A score of -1 indicates a negative sentiment, a score of 0 indicates a neutral sentiment, and a score of 1 indicates a positive sentiment.
 
 Conclusion
